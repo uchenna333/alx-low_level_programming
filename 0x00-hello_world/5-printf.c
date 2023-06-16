@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
  * main - entry point
+ *
  * Description: 'Programme prints using printf function
+ * @parameter: describe the parameter
+ *
  * Return 0 (success)
  */
 int main(void)
