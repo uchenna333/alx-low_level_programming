@@ -1,33 +1,20 @@
-#include <stdio.h>
-
 /**
- * main - Prints all possible combinations of two two-digit numbers,
- * ranging from 0-99, separated by a comma followed by a space.
+ * main - Lists all the natural numbers below 1024 (excluded)
+ *        that are multiples of 3 or 5.
+ *
  * Return: Always 0.
  */
 int main(void)
 {
-	int num1, num2;
+	int i, sum = 0;
 
-	for (num1 = 0; num1 <= 98; num1++)
+	for (i = 0; i < 1024; i++)
 	{
-		for (num2 = num1 + 1; num2 <= 99; num2++)
-		{
-			putchar((num1 / 10) + '0');
-			putchar((num1 % 10) + '0');
-			putchar(' ');
-			putchar((num2 / 10) + '0');
-			putchar((num2 % 10) + '0');
-
-			if (num1 == 98 && num2 == 99)
-				continue;
-
-			putchar(',');
-			putchar(' ');
-		}
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
 	}
 
-	putchar('\n');
+	printf("%d\n", sum);
 
 	return (0);
 }
