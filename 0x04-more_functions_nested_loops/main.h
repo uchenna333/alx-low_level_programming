@@ -1,10 +1,10 @@
-#include "int _isupper(int c)"
-#include "int _isdigit(int c)"
-#include "int mul(int a, int b)"
-#include "void print_numbers(void)"
-#include "void print_most_numbers(void)"
-#include "void more_numbers(void)"
-#include "void print_line(int n)"
-#include "void print_diagonal(int n)"
-#include "void print_square(int size)"
-#include "void print_triangle(int size)"
+#include "int _isupper(int c)";
+#include "int _isdigit(int c)";
+#include "int mul(int a, int b)";
+#include "void print_numbers(void)";
+#include "void print_most_numbers(void)";
+#include "void more_numbers(void)";
+#include "void print_line(int n)";
+#include "void print_diagonal(int n)";
+#include "void print_square(int size)";
+#include "void print_triangle(int size)";
